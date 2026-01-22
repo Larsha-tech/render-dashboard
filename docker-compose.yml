@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  render-dashboard:
+    build: .
+    container_name: render-dashboard
+    ports:
+      - "3000:3000"
+    volumes:
+      - render_data:/data
+    restart: unless-stopped
+
+volumes:
+  render_data:
