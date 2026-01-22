@@ -1,0 +1,9 @@
+{
+  "name": "render-dashboard",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
