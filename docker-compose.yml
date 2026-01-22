@@ -5,7 +5,7 @@ services:
     build: .
     container_name: render-dashboard
     ports:
-      - "3005:3000"
+      - "3000:3000"
     volumes:
       - render_data:/data
     restart: unless-stopped
